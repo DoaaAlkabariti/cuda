@@ -1,0 +1,367 @@
+body{
+ font-family: 'Titillium Web', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  direction:ltr;
+}
+
+.section{
+  width: 100%;
+  height: auto;
+  padding: 105px 0px;
+  box-sizing: border-box;
+  background: #87509c;
+  margin: 0 auto;
+}
+
+.container{
+  width:1100px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/***************************************** properities of first section********************************************/
+nav{
+  width: 100%;
+  height: auto;
+}
+
+.clear{
+  clear: both;
+}
+
+.logo{
+  width: 50%;
+  height: auto;
+  float: left;
+  /* text-align:left;  */
+}
+
+.menu{
+  width: 50%;
+  height: auto;
+  float: right;
+}
+
+.firstSec{
+  padding-top:50px;
+}
+
+.menu ul{
+  padding:0px;
+  float: right;
+}
+
+.menu ul li{
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 40px;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.menu ul li:first-child{
+  margin-left:0px;
+}
+
+.menu ul li a:hover,
+.menue ul li a:active{
+  text-decoration: underline;
+}
+
+.title{
+  color: white;
+  text-align: center;
+}
+
+.firstSec h1{
+  color: white;
+  margin-top:120px;
+  line-height: 36px;
+  font-size: 42px;
+  text-align: center;
+}
+
+a.link {
+  display: inline-block; /* Q */
+  padding: 2px 75px;
+  background: #eb7d4b;
+  border-radius: 5px;
+  color: white;
+  border-bottom:3px solid #c86a40;/*لون أغمق شوية */
+  text-transform: uppercase;
+  text-decoration: none;
+  box-sizing: border-box;
+  line-height:70px;
+  width: 300px;
+  height: 70px;
+  transition-duration: 0.4s;
+  margin-top:50px;
+  margin-left: 400px;/* q*/
+}
+
+a.link:hover{
+  background: #c86a40;
+  transition-duration: 0.4s;
+}
+
+/***************************************** properities of second section********************************************/
+.secondSec{
+  background:#17c2a4;
+}
+
+.section h2{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+.section p{
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+.row{
+  width: 100%;
+  height: auto;
+}
+
+.gride{
+  width:25%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  margin: -3px; /**/
+
+}
+
+.grideImg {
+  /* margin:0 auto;/* questio  */
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.gridImg{
+  width: 100%;
+  height: auto;
+}
+
+.grid p{
+  font-size: 16px;
+}
+
+ .gride h3{
+  font-size:24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/***************************************** properities of third section********************************************/
+.thirdSec{
+  background:#e7f1f8;
+}
+
+.thirdSec p,
+.thirdSec h2
+{
+  color: #3c4761;
+}
+
+span.location{
+color: blue;
+text-align: center;
+}
+
+.teamGrid .grideImg{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  /* line-height: 200px; *//* Q*/
+  border-radius: 50%;
+  background: #878787;
+}
+
+.socialIcons{
+  width: 100%;
+  height: auto;
+}
+
+.socialIcons a{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background:#bdd1df ;
+  line-height: 30px;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+.socialIcons a:hover{
+  transition-duration: 0.4s;
+}
+.socialIcons a.fb:hover{
+  background: #3b5998;
+}
+.socialIcons a.tw:hover{
+  background: #00aced;
+}
+.socialIcons a.linked:hover{
+  background:#0077b5;
+}
+.socialIcons a.mail:hover{
+  background: #87509c;
+}
+/***************************************** properities of fourth section********************************************/
+.fourthSec{
+  background:#FFDD99;;
+}
+
+.fourthSec h2{
+  color: black;
+}
+
+.fourDivs{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+
+.divs{
+  width: 50%;
+  height: auto;
+  float: left;
+  display: inline-block;
+}
+
+.span{
+float: center;
+}
+/***************************************** properities of fifth section********************************************/
+.fifthSec{
+  background:#D74680;
+}
+
+.fifthSec p,
+.fifthSec h2
+{
+  color:white;
+}
+
+.fifthSec .img{
+width: 100px;
+height: 100px;
+}
+
+.image{
+  width:30%;
+  float: left;
+  height: auto;
+}
+
+.content{
+  width:70%;
+  float: left;
+  height: auto;
+}
+
+.fifthSec h3,
+.fifthSec span{
+  margin-left: 60px;
+}
+
+.fifthSec h3{
+  color: white;
+  margin-bottom: -5px; /*q*/
+}
+
+.fifthSec span{
+  color:#FFDD99;
+}
+
+/***************************************** properities of sixth section********************************************/
+.sixthtSec{
+  background: #3C5499;
+}
+
+.sixthtSec h2,
+.sixthtSec p
+{
+  color: white;
+}
+
+.firstInput{
+  width:50%;
+  float: left;
+  height: auto;
+  }
+
+.secodInput{
+  width:50%;
+  float: left;
+  height: auto;
+}
+
+.sixthtSec .row{
+  padding-bottom: 70px;
+}
+
+.finput,
+.sinput
+{
+  border-radius: 5px;
+  padding: 17px;
+  width:350px;
+  margin-left: 170px;
+  box-sizing: border-box;
+  outline: 0px;
+  border: 0px;
+  background: #273a71;
+  color: #ffffff;
+}
+
+.sinput{
+  margin-left:20px;
+}
+
+.thirdInput{
+  text-align: center;
+}
+
+.tInput{
+  width:752px;
+  height: 190px;
+  border-radius: 5px;
+  padding: 17px;
+  margin-right: 5px;
+  box-sizing: border-box;
+  outline: 0px;
+  border: 0px;
+  background: #273a71;
+  color: #ffffff;
+}
+
+.submitBtn{
+  width:280px;
+  height: 70px;
+  border-radius:6px;
+  color: white;
+  background: #30bae7;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 40px;
+  margin-left: 380px;
+}
