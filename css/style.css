@@ -20,7 +20,7 @@ body{
   margin: 0 auto;
 }
 
-/***************************************** properities of first section********************************************/
+/***************************************** properities of hero section********************************************/
 nav{
   width: 100%;
   height: auto;
@@ -43,7 +43,7 @@ nav{
   float: right;
 }
 
-.firstSec{
+.heroSec{
   padding-top:50px;
 }
 
@@ -81,7 +81,7 @@ nav{
   text-align: center;
 }
 
-.firstSec h1{
+.heroSec h1{
   color: white;
   margin-top:120px;
   line-height: 36px;
@@ -112,8 +112,8 @@ a.link:hover{
   transition-duration: 0.4s;
 }
 
-/***************************************** properities of second section********************************************/
-.secondSec{
+/***************************************** properities of services section********************************************/
+.servicesSec{
   background:#17c2a4;
 }
 
@@ -166,13 +166,13 @@ a.link:hover{
   text-transform: uppercase;
 }
 
-/***************************************** properities of third section********************************************/
-.thirdSec{
+/***************************************** properities of team section********************************************/
+.teamSec{
   background:#e7f1f8;
 }
 
-.thirdSec p,
-.thirdSec h2
+.teamSec p,
+.teamSec h2
 {
   color: #3c4761;
 }
@@ -223,12 +223,12 @@ text-align: center;
 .socialIcons a.mail:hover{
   background: #87509c;
 }
-/***************************************** properities of fourth section********************************************/
-.fourthSec{
+/***************************************** properities of portofolio section********************************************/
+.portofolioSec{
   background:#FFDD99;;
 }
 
-.fourthSec h2{
+.portofolioSec h2{
   color: black;
 }
 
@@ -250,18 +250,18 @@ text-align: center;
 .span{
 float: center;
 }
-/***************************************** properities of fifth section********************************************/
-.fifthSec{
+/***************************************** properities of opinions section********************************************/
+.opinionsSec{
   background:#D74680;
 }
 
-.fifthSec p,
-.fifthSec h2
+.opinionsSec p,
+.opinionsSec h2
 {
   color:white;
 }
 
-.fifthSec .img{
+.opinionsSec .img{
 width: 100px;
 height: 100px;
 }
@@ -278,27 +278,27 @@ height: 100px;
   height: auto;
 }
 
-.fifthSec h3,
-.fifthSec span{
+.opinionsSec h3,
+.opinionsSec span{
   margin-left: 60px;
 }
 
-.fifthSec h3{
+.opinionsSec h3{
   color: white;
   margin-bottom: -5px; /*q*/
 }
 
-.fifthSec span{
+.opinionsSec span{
   color:#FFDD99;
 }
 
-/***************************************** properities of sixth section********************************************/
-.sixthtSec{
+/***************************************** properities of form section********************************************/
+.formtSec{
   background: #3C5499;
 }
 
-.sixthtSec h2,
-.sixthtSec p
+.formtSec h2,
+.formtSec p
 {
   color: white;
 }
@@ -315,7 +315,7 @@ height: 100px;
   height: auto;
 }
 
-.sixthtSec .row{
+.formtSec .row{
   padding-bottom: 70px;
 }
 
@@ -366,8 +366,8 @@ height: 100px;
   margin-left: 380px;
 }
 
-/***************************************** properities of fifth section********************************************/
-.seventhtSec{
+/***************************************** properities of footer section********************************************/
+.footSec{
   background:#344B8E ;
   margin-bottom:-120px;
 }
