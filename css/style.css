@@ -30,17 +30,10 @@ nav{
   clear: both;
 }
 
-.logo{
-  width: 50%;
-  height: auto;
-  float: left;
-  /* text-align:left;  */
-}
-
 .menu{
-  width: 50%;
+  width: 70%;
   height: auto;
-  float: right;
+  float: center;
 }
 
 .heroSec{
